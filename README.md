@@ -3,7 +3,7 @@ Created in the hopes of finding an idealized land plot to purchase.
 
 # how it should work
 gather data from different sources, included but not limited to
-* point descriptors (it is 'x' here) 
+* point descriptors (it is `x` here) 
   * elevation
   * hydrology
   * rain
