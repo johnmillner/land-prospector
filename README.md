@@ -14,7 +14,6 @@ gather data from different sources, included but not limited to
   * flooding
   * weather patterns and averages
 * region descriptors (it is `x` becuase it is contained within `y`) 
-  * polygon
   * city laws
   * county laws
   * state laws
@@ -29,12 +28,13 @@ gather data from different sources, included but not limited to
   * has grid seqage
   * has grid internet
 * landmark descriptors (it is `x` from `y` landmark)
-  * polygon
   * goods
   * services
   * proximity to neighbors
   * proximity to public land
   * proximity to natural feature
 
+ideally - just stick as much data as possible in there and let the humans forming the query sort it out from there with intuition. 
+it should be easy to load new/custom sets of data in 
   
  these descriptors are then queried and ultimatly grouped together with the help of a graph database to form a subset of lots that match the above characteristics for further human analysis
