@@ -37,4 +37,6 @@ gather data from different sources, included but not limited to
 ideally - just stick as much data as possible in there and let the humans forming the query sort it out from there with intuition. 
 it should be easy to load new/custom sets of data in 
   
- these descriptors are then queried and ultimatly grouped together with the help of a graph database to form a subset of lots that match the above characteristics for further human analysis
+these descriptors are then queried and ultimatly grouped together with the help of a graph database to form a subset of lots that match the above characteristics for further human analysis
+
+a query is formed from these descriptors and then each filtered - the result is then mapped to lots - using point-in-polygon and polygon-in-polygon algos - ideally this returns a list/map UI and links/integrates to a real-estate site such as zillow 
